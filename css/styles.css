@@ -493,6 +493,7 @@ align-items: baseline;
 }
 
 .footer-soc {
+  margin-right: 80px;
 }
 
 .footer-soc-title {
@@ -536,4 +537,64 @@ align-items: baseline;
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-subscribe-label {
+  color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+      flex-direction: column;
+      gap: 16px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+    
+}
+
+.footer-subscribe-label {
+  margin: 0;
+}
+
+.footer-subscribe-input {
+  width: 264px;
+    height: 40px;
+    border-radius: 4px;
+      border: 1px solid #FFF;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+      background-color: #2E2F42;
+      padding: 8px 16px;
+      /* Text */
+      color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        margin-right: 24px;
+}
+
+.footer-subscribe-btn {
+  min-width: 165px;
+    height: 40px;
+  display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+      background-color: #4D5AE5;
+      color: #FFF;
+        text-align: center;
+              /* Button Text */
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        margin: 0;
+        align-self: flex-end;
 }
