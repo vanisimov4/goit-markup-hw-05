@@ -678,10 +678,10 @@ img {
 .modal-form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .modal-field {
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -690,7 +690,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   height: 40px;
   background-color: transparent;
-  padding-left: 40px;
+  padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -743,8 +743,8 @@ img {
   resize: none;
 }
 
-.modal-field:last-child {
-  margin-top: 16px;
+.modal-field .textarea {
+  margin-bottom: 16px;
 }
 
 .modal-check-text {
