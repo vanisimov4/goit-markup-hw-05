@@ -557,13 +557,14 @@ img {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  filter: drop-shadow 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
   padding: 8px 16px;
+  color: #fff;
   /* Text */
   font-size: 12px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -578,7 +579,7 @@ img {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+    border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
@@ -590,12 +591,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  margin: 0;
-  align-self: flex-end;
 }
 
 .footer-subscribe-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 /* ======================================*/
 /* ================BACKDROP/MODAL======================*/
