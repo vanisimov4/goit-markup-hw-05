@@ -538,23 +538,17 @@ img {
   background-color: #31d0aa;
 }
 
-.footer-subscribe-label {
+.footer-subscribe-text {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-subscribe-form {
   display: flex;
-}
-
-.footer-subscribe-label {
-  margin: 0;
 }
 
 .footer-subscribe-input {
@@ -753,14 +747,12 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
-.modal-check-text span {
-  display: flex;
+.modal-check-text .modal-check-span {
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
