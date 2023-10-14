@@ -743,8 +743,16 @@ img {
   resize: none;
 }
 
-.modal-field .textarea {
+.modal-textarea {
   margin-bottom: 16px;
+}
+
+.modal-text:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-checkbox {
+  margin-bottom: 24px;
 }
 
 .modal-check-text {
@@ -803,7 +811,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-top: 24px;
 }
 
 .is-open {
