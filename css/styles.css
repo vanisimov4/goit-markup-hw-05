@@ -549,6 +549,7 @@ img {
 
 .footer-subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-subscribe-input {
@@ -559,7 +560,6 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #2e2f42;
   padding: 8px 16px;
-  margin-right: 24px;
   /* Text */
   font-size: 12px;
   font-weight: 400;
